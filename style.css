@@ -1,0 +1,121 @@
+body{
+  font-family: calibri;
+  font-size: 0.85em;
+  line-height: 1.5em;
+}
+
+header{
+  background-color:white;
+  text-align: center;
+  font-weight: bolder;
+  padding:25px;
+  color:#4d4d4d;
+  font-size: 1.2em;
+  margin:0;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  border-bottom:1px solid #e6e6e6;
+}
+
+
+.tabel{
+
+  margin-top:80px;
+  background-color:#f2f2f2;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.input-1{
+  width:100%;
+  padding:15px;
+  margin-bottom:5px;
+  border-style: none;
+  border-radius:5px;
+  font-size:0.8em;
+  box-sizing:border-box;
+
+}
+
+
+.input-2{
+  width:100%;
+  padding:15px;
+
+  border-style: none;
+  border-radius:5px;
+  font-size:0.8em;
+  box-sizing:border-box;
+
+}
+
+
+.angsuran-normal{
+  background-color:#4ddbff;
+  color:white;
+  padding:12px;
+  text-align: center;
+
+  border-radius:5px;
+  margin-top:15px;
+  cursor:pointer;
+      box-shadow: 0.7px 0.7px 2px #a6a6a6;
+}
+
+.angsuran6099{
+  background-color:#4ddbff;
+  color:white;
+  padding:12px;
+  text-align: center;
+  border-style: none;
+  border-radius:5px;
+  margin-top:5px;
+  cursor:pointer;
+      box-shadow: 0.7px 0.7px 2px #a6a6a6;
+}
+
+
+.angsuran60p{
+  background-color:#4ddbff;
+  color:white;
+  padding:12px;
+  text-align: center;
+  border-style: none;
+  border-radius:5px;
+  margin-top:5px;
+  cursor:pointer;
+    box-shadow: 0.7px 0.7px 2px #a6a6a6;
+}
+
+.tombolCopy{
+  background-color:#70db70;
+  color:white;
+  padding:12px;
+  text-align: center;
+  border-style: none;
+  border-radius:5px;
+  margin-top:5px;
+  cursor:pointer;
+    box-shadow: 0.7px 0.7px 2px #a6a6a6;
+}
+
+.tombolReset{
+  background-color:#ff4d4d;
+  color:white;
+  padding:12px;
+  text-align: center;
+  border-style: none;
+  border-radius:5px;
+  margin-top:5px;
+  cursor:pointer;
+  box-shadow: 0.7px 0.7px 2px #a6a6a6;
+}
+
+
+.hasil-angsuran{
+  padding:10px;
+  text-align:center;
+  color:#4d4d4d;
+}

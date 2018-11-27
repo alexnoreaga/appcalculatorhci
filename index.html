@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>App HCI Calculator</title>
+  </head>
+  <body>
+    <header>
+      Calculator <span style="color:#ff4d4d;">Homecredit</span> Galaxy Camera
+    </header>
+  <div class="tabel">
+      <input class="input-1" type="number" id="inputharga" value="" placeholder="Masukkan Harga Produk">
+      <input class="input-2" type="number" id="inputdp" value="" placeholder="Masukkan DP">
+
+
+            <div class="angsuran-normal" onclick="angsuranNormal()">
+              Cek Angsuran Normal
+            </div>
+            <div class="angsuran6099" onclick="angsuran6099()">
+              Cek Angsuran 6 Bulan Bunga 0.99%
+            </div>
+            <div class="angsuran60p" onclick="angsuran60P()">
+                Cek Angsuran 6 Bulan Bunga 0%
+            </div>
+
+
+            <div class="tombolCopy" onclick="copyDivToClipboard()">
+                Copy Angsuran
+            </div>
+
+              <div class="tombolReset" onclick="myRefresh()">
+                Reset
+              </div>
+  </div>
+
+  <div class="hasil-angsuran">
+    <p id="hasilAngsuran">Pastikan anda sudah memasukkan Harga sesuai dengan Tenor yang diambil.</p>
+  </div>
+  </body>
+</html>
