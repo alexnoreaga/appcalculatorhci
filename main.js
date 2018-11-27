@@ -97,15 +97,18 @@ document.getElementById("hasilAngsuran").innerHTML =
 
 }
 
-function copyDivToClipboard() {
-           var range = document.getSelection().getRangeAt(0);
-           range.selectNode(document.getElementById("hasilAngsuran"));
-           window.getSelection().addRange(range);
-           document.execCommand("copy")
 
 
+       function copyDivToClipboard(){
+         var text = document.getElementById("hasilAngsuran");
+         var selection = window.getSelection();
+         var range = document.createRange();
+         range.selectNodeContents(text);
+         selection.removeAllRanges();
+         selection.addRange(range);
+         //add to clipboard.
+         document.execCommand('copy');
        }
-
 
 function myRefresh() {
  window.location.reload();
