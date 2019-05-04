@@ -11,7 +11,7 @@ function angsuranNormal(){
 var dpSesungguhnya = dpasli - 199000;
 var hargaSesungguhnya = hargaasli - dpSesungguhnya;
 var bunga9 = hargaSesungguhnya * 2.29/100;
-var bungaNormal = hargaSesungguhnya * 2.69/100;
+var bungaNormal = hargaSesungguhnya * 3.69/100;
 var biayaAdmin = 5000;
 var tenorNormal9bln = (hargaSesungguhnya/9) + bunga9 + biayaAdmin;
 var tenorNormal12bln = (hargaSesungguhnya/12) + bungaNormal + biayaAdmin;
