@@ -89,6 +89,18 @@ header{
     box-shadow: 0.7px 0.7px 2px #a6a6a6;
 }
 
+.angsuran40p{
+  background-color:#4ddbff;
+  color:white;
+  padding:12px;
+  text-align: center;
+  border-style: none;
+  border-radius:5px;
+  margin-top:5px;
+  cursor:pointer;
+    box-shadow: 0.7px 0.7px 2px #a6a6a6;
+}
+
 .tombolCopy{
   background-color:#70db70;
   color:white;
