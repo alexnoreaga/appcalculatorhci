@@ -11,7 +11,7 @@ function angsuranNormal(){
 var dpSesungguhnya = dpasli - 199000;
 var hargaSesungguhnya = hargaasli - dpSesungguhnya;
 var bunga9 = hargaSesungguhnya * 2.29/100;
-var bungaNormal = hargaSesungguhnya * 3.69/100;
+var bungaNormal = hargaSesungguhnya * 2.69/100;
 var biayaAdmin = 5000;
 var tenorNormal9bln = (hargaSesungguhnya/9) + bunga9 + biayaAdmin;
 var tenorNormal12bln = (hargaSesungguhnya/12) + bungaNormal + biayaAdmin;
@@ -97,31 +97,7 @@ document.getElementById("hasilAngsuran").innerHTML =
 
 }
 
-function angsuran40P(){
-  var Harga = document.getElementById("inputharga").value;
-  var Dp = document.getElementById("inputdp").value;
-  var hargaasli = parseInt(Harga);
-  var dpasli = parseInt(Dp);
-  var dpShowTime = dpasli.toLocaleString(undefined, {minimumFractionDigits: 0,maximumFractionDigits: 0});
 
-
-var dpSesungguhnya = dpasli - 199000;
-var hargaSesungguhnya = hargaasli - dpSesungguhnya;
-var biayaAdmin = 5000;
-var tenor4bln40P = (hargaSesungguhnya/4) + biayaAdmin;
-var mathTenor4Bln40P = Math.ceil(tenor4bln40P/100)*100;
-var tenor4Bln40PShowTime = mathTenor4Bln40P.toLocaleString(undefined, {minimumFractionDigits: 0,maximumFractionDigits: 0});
-
-
-
-
-document.getElementById("hasilAngsuran").innerHTML =
-"Berikut cicilan dengan DP " + dpShowTime +
-"<br>" + "4x : " + tenor4Bln40PShowTime +
-"<br>" + promo;
-
-
-}
 
 
 
