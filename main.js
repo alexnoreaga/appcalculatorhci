@@ -97,6 +97,32 @@ document.getElementById("hasilAngsuran").innerHTML =
 
 }
 
+function angsuran40P(){
+  var Harga = document.getElementById("inputharga").value;
+  var Dp = document.getElementById("inputdp").value;
+  var hargaasli = parseInt(Harga);
+  var dpasli = parseInt(Dp);
+  var dpShowTime = dpasli.toLocaleString(undefined, {minimumFractionDigits: 0,maximumFractionDigits: 0});
+
+
+var dpSesungguhnya = dpasli - 199000;
+var hargaSesungguhnya = hargaasli - dpSesungguhnya;
+var biayaAdmin = 5000;
+var tenor6bln60P = (hargaSesungguhnya/4) + biayaAdmin;
+var mathTenor6Bln60P = Math.ceil(tenor6bln60P/100)*100;
+var tenor6Bln60PShowTime = mathTenor6Bln60P.toLocaleString(undefined, {minimumFractionDigits: 0,maximumFractionDigits: 0});
+
+
+
+
+document.getElementById("hasilAngsuran").innerHTML =
+"Berikut cicilan dengan DP " + dpShowTime +
+"<br>" + "4x : " + tenor6Bln60PShowTime +
+"<br>" + promo;
+
+
+}
+
 
 
 
